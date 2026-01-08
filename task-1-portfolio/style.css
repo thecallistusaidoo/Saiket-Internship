@@ -7,11 +7,12 @@
 
 /* Base styles */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #f8fafc;
+  color: #1f2933;
 }
+
 
 /* Layout */
 header {
@@ -53,11 +54,28 @@ header {
   max-width: 1100px;
   margin: auto;
   padding: 60px 20px;
+  background: #ffffff;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
 }
 
 .hero {
   text-align: center;
-  background: #fff;
+  background: linear-gradient(135deg, #1f2933, #111827);
+  color: #ffffff;
+  padding: 100px 20px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #d1d5db;
 }
 
 .hero h1 {
@@ -80,16 +98,19 @@ header {
 }
 
 .skills-list li {
-  background: #fff;
-  padding: 10px;
+  background: #1f2933;
+  color: #ffffff;
+  padding: 12px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 8px;
+  font-weight: 500;
 }
 
 /* Footer */
 footer {
-  background: #111;
-  color: #fff;
+  background: #111827;
+  color: #d1d5db;
   text-align: center;
-  padding: 20px;
+  padding: 30px 20px;
+  margin-top: 60px;
 }
