@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+}
+
+.app {
+  max-width: 500px;
+  margin: 60px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.todo-form {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.todo-form button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* Disabled button */
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* List */
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f0f2f5;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.todo-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.task-number {
+  font-weight: bold;
+}
+
+.todo-item input {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+}
+
+.todo-item input:focus {
+  outline: none;
+}
+
+.todo-item button {
+  margin-left: 5px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
