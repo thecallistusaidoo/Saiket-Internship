@@ -7,23 +7,27 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- Header -->
-  <header class="header">
-    <nav class="navbar">
-      <h2 class="logo">ProductX</h2>
+    
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <h2 class="logo">ProductX</h2>
       <ul class="nav-links">
         <li><a href="#features">Features</a></li>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <div class="theme-switch">
+      <span>Light</span>
+      <label class="switch">
+          <input type="checkbox" id="themeToggle" />
+          <span class="slider"></span>
+      </label>
+      <span>Dark</span>
+      </div>
     </nav>
-    <button id="themeToggle" class="toggle-btn">
-        🌙 Dark Mode
-    </button>
-
-  </header>
-
+</header>
+  
   <!-- Hero -->
     <section class="hero">
         <div class="hero-content">
@@ -39,9 +43,10 @@
             />
         </div>
     </section>
-
-
-  <!-- Features -->
+    
+    
+    
+    <!-- Features -->
   <section id="features" class="section">
     <h2>Features</h2>
     <div class="features-grid">
