@@ -18,6 +18,10 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <button id="themeToggle" class="toggle-btn">
+        🌙 Dark Mode
+    </button>
+
   </header>
 
   <!-- Hero -->
@@ -82,15 +86,29 @@
   </section>
 
   <!-- CTA -->
-  <section id="contact" class="cta">
-    <h2>Ready to get started?</h2>
-    <button class="btn">Join Now</button>
-  </section>
+    <section class="cta">
+        <h2>Join Our Newsletter</h2>
+        <p>Stay updated with new features and releases.</p>
+
+        <form id="subscribeForm">
+            <input 
+            type="email" 
+            id="emailInput" 
+            placeholder="Enter your email" 
+            required
+            />
+            <button type="submit" class="btn">Subscribe</button>
+            <p id="formMessage"></p>
+        </form>
+    </section>
+
 
   <!-- Footer -->
   <footer class="footer">
     <p>© 2026 ProductX. All rights reserved.</p>
   </footer>
 
+  
+    <script src="script.js"></script>
 </body>
 </html>
