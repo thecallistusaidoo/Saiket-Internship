@@ -17,3 +17,7 @@ HTML, CSS, and JavaScript.
 ## Purpose
 This project demonstrates fundamental front-end web development skills,
 including layout design, responsiveness, and basic interactivity.
+
+## 👤 Author
+**Callistus Lawrence Aidoo**  
+Full Stack Developer (Intern)
