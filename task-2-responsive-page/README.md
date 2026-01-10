@@ -79,7 +79,6 @@ Users can switch between light and dark themes using a toggle in the header.
 
 ## 📌 Internship Task Coverage
 
-- Task 1: HTML structure & layout ✔
 - Task 2: CSS styling & JavaScript interactivity ✔
 
 ---
