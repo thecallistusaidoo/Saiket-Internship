@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function TodoItem({ todo, onDelete, onEdit }) {
+function TodoItem({ todo, index, onDelete, onEdit }) {
   const [isEditing, setIsEditing] = useState(false);
   const [text, setText] = useState(todo.text);
 
@@ -21,8 +21,7 @@ function TodoItem({ todo, onDelete, onEdit }) {
         </>
       ) : (
           <>
-          {/* <span className="task-number">{index}.</span> */}
-          <span>{todo.text}</span>
+          <span>{index}. {todo.text}</span>
           <div className="buttons">
             <button onClick={() => setIsEditing(true)}>Edit</button>
             <button onClick={() => onDelete(todo.id)}>Delete</button>
